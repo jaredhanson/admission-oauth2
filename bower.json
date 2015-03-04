@@ -1,0 +1,28 @@
+{
+  "name": "admission-oauth2",
+  "version": "0.0.0",
+  "description": "OAuth 2.0 identity provider for Admission.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/admission-oauth2.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "querystring": "git://github.com/anchorjs/querystring.git#master"
+  },
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
